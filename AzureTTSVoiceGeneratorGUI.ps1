@@ -161,7 +161,7 @@ $xaml = @'
         <Rectangle HorizontalAlignment="Left" Height="83" Margin="10,307,0,0" Stroke="Gray" VerticalAlignment="Top" Width="625"/>
         <Rectangle HorizontalAlignment="Left" Height="118" Margin="10,165,-118,0" Stroke="Gray" VerticalAlignment="Top" Width="625"/>
         <Rectangle HorizontalAlignment="Left" Height="127" Margin="10,14,-123,0" Stroke="Gray" VerticalAlignment="Top" Width="625"/>
-        <TextBox x:Name="Box_TextMessage" HorizontalAlignment="Left" Height="111" Margin="10,401,0,0" TextWrapping="Wrap" Text="Place here the text you want to convert to a voice message" VerticalAlignment="Top" Width="509"/>
+        <TextBox x:Name="Box_TextMessage" HorizontalAlignment="Left" Height="111" Margin="10,401,0,0" TextWrapping="Wrap" AcceptsReturn="True" Text="Place here the text you want to convert to a voice message" VerticalAlignment="Top" Width="509"/>
         <Button x:Name="Button_Run" Content="RUN!" HorizontalAlignment="Left" Margin="531,401,0,0" VerticalAlignment="Top" Width="95" Height="44"/>
         <ComboBox x:Name="ComboBox_Location" HorizontalAlignment="Left" Margin="98,35,-2,0" VerticalAlignment="Top" Width="411" IsEditable="True" IsSynchronizedWithCurrentItem="True">
             <ComboBoxItem Content="australiaeast"/>
